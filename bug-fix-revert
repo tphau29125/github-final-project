@@ -1,0 +1,17 @@
+$ curl -H "Accept: application/vnd.github.v3+json" \
+https://api.github.com/repos/ibm-developer-skills-network/ncino-Introduction-to-Git-and-GitHub/pulls/1
+
+{
+  "id": 987654321,
+  "state": "open",
+  "head": {
+    "repo": {
+      "full_name": "tphau29125/Introduction-to-Git-and-GitHub"
+    }
+  },
+  "base": {
+    "repo": {
+      "full_name": "ibm-developer-skills-network/ncino-Introduction-to-Git-and-GitHub"
+    }
+  }
+}
